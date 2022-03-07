@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Common Global Definitions Policy
+$Header: $
+-->
+<policy name        = "Common Global Definitions for Post XMLs"
+        changelist  = "$Change: $"
+        policy_ver  = "1111.2.0"
+>
+
+  <initial>
+
+    <mcc_list name="global:china_mccs" ns="global"> 460 </mcc_list>
+
+    <plmn_list name="global:cmcc_plmn" ns="global"> 460-00 460-02 460-04 460-07 460-08 </plmn_list>
+    <plmn_list name="global:cu_plmn" ns="global"> 460-01 460-06 460-09 </plmn_list>
+    <plmn_list name="global:ct_plmn" ns="global"> 460-03 460-05 460-11 </plmn_list>
+
+    <rf_band_list ns="global" name="global:default_bands">
+      <gw_bands  base="current" />
+      <lte_bands base="current" />
+      <tds_bands base="none" />
+      <nr5g_sa_bands base="current" />
+      <nr5g_nsa_bands base="current" />
+    </rf_band_list>
+    
+  </initial>
+
+</policy>
+

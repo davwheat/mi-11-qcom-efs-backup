@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Carrier policy for DSS enabled carriers, no other carrier requirements
+$Header:  $
+-->
+<policy name        = "DSS Carrier"
+        changelist  = "$Change: $"
+        policy_ver  = "129.2.0"
+>
+
+  <initial>
+
+    <boolean_define name="carrier:dss_is_enabled" initial="true" />
+
+  </initial>
+
+</policy>
+
